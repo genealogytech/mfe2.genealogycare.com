@@ -5,6 +5,8 @@ export default () => {
   const ref = useRef(null);
 
   useEffect(() => {
+    // Allow mount to get a DYNAMIC reference
+    // to the existing rendered HTML element
     marketingMount(ref.current);
   }, []);
 
