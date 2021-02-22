@@ -4,6 +4,7 @@ import React, { useRef, useEffect } from 'react';
 export default () => {
   const ref = useRef(null);
 
+  // Run only once
   useEffect(() => {
     // Allow mount to get a DYNAMIC reference
     // to the existing rendered HTML element
