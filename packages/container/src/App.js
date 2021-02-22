@@ -1,5 +1,4 @@
-import React, { useRef } from 'react';
-import { mount as marketingMount } from 'marketing/MarketingApp';
+import React from 'react';
 
 // COMPONENTS
 import MarketingApp from './components/MarketingApp';
