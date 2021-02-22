@@ -1,6 +1,6 @@
 import React from 'react';
 
-// COMPONENTS
+// Components
 import MarketingApp from './components/MarketingApp';
 
 export default () => {
