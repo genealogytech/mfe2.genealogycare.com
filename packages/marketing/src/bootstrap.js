@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import App from './App';
+
 const mount = (el) => {
-  ReactDOM.render(<h1>Hi there!</h1>, el);
+  ReactDOM.render(<App />, el);
 };
 
 // If we are in development and in isolation
