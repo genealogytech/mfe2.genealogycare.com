@@ -4,5 +4,10 @@ import React from 'react';
 import MarketingApp from './components/MarketingApp';
 
 export default () => {
-  return <MarketingApp />;
+  return (
+    <>
+      <h1>Hi There</h1>
+      <MarketingApp />
+    </>
+  );
 };
