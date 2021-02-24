@@ -12,6 +12,9 @@ const generateClassName = createGenerateClassName({
   productionPrefix: 'co',
 });
 
+/**
+ * Main App
+ */
 export default () => {
   return (
     <BrowserRouter>
